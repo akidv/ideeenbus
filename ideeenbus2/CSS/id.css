@@ -1,0 +1,339 @@
+#paginaFlexContainer {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+#formZoeken {
+
+}
+#zoekbalkId {
+    width: 60%;
+    margin: 8px 0px 0px 10px;
+    background-color: rgb(130, 130, 130);
+    color: white;
+    padding: 4px 6px;
+    border: 1px solid rgb(130, 130, 130);
+    border-radius: 6px;
+}
+#zoekbalkId:focus {
+    border: 1px solid rgb(210, 210, 210);
+    background-color: rgb(130, 130, 130);
+    outline: none;
+}
+#zoekbalkId::placeholder {
+    color: white;
+    opacity: 1;
+}
+#zoekbalkId:-ms-input-placeholder {
+    color: white;
+}
+#zoekbalkId::-ms-input-placeholder {
+    color: white;
+}
+#submitZoekId {
+    width: 25%;
+    margin: 8px 10px 0px 0px;
+    background-color: rgb(130, 130, 130);
+    color: white;
+    padding: 4px 6px;
+    border: 1px solid rgb(130, 130, 130);
+    border-radius: 6px;
+    max-height: 30px;
+}
+#submitZoekId:hover {
+    background-color: rgb(170, 170, 170);
+}
+#submitZoekId:focus {
+    border: 1px solid rgb(210, 210, 210);
+    background-color: rgb(130, 130, 130);
+    outline: none;
+}
+#uitloggenHeaderId {
+
+}
+#uitloggenHeaderMobielId {
+    color: white;
+}
+#inloggenHeaderMobielId {
+    
+}
+#inloggenHeaderId {
+    
+}
+#accountAanmakenHeaderId {
+
+}
+#uitloggenHeaderId {
+
+}
+#inloggenHeaderId {
+
+}
+#accountAanmakenHeaderId {
+
+}
+#startId {
+
+}
+#linksNavButtonId {
+    display: none;
+    margin: auto;
+    width: 20px;
+}
+#linksHome {
+
+}
+#lijstLinksNav {
+    transition: transform .2s;
+    display: flex;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin: 4px 0px;
+}
+#rechtsNavButtonId {
+    margin: auto;
+    width: 20px;
+}
+#startLogInOfRegristreer {
+    margin: 10% 6%;
+}
+#startLogInOfRegristreer a {
+    color: black;
+}
+#startInlogId {
+    
+}
+#startAccountAanmakenId {
+
+}
+#inlogMain {
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    padding: 4% 0;
+}
+#inlogContainer {
+    padding: 10px;
+}
+#formInlog {
+
+}
+#inlogEmailId {
+    margin-top: 10px;
+}
+#inlogWachtwoordId {
+
+}
+#inlogSubmitId {
+
+}
+#accountAanmakenContainer {
+    padding: 10px;
+}
+#formAccAanmaken {
+
+}
+#accAanmakenVoornaamId {
+    margin-top: 10px;
+}
+#accAanmakenAchternaamId {
+
+}
+#accAanmakenEmailId {
+
+}
+#accAanmakenWachtwoordId {
+
+}
+#accAanmakenWachtwoordherhaaldId {
+
+}
+#accAanmakenSubmitId {
+
+}
+#homeContainer {
+    
+}
+#homeOnderwerpenId {
+    width: 100%;
+}
+#idalgemeen {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../Afbeeldingen/onderwerpen/algemeen-absolutvision-82TpEld0_e4-unsplash.jpg);
+}
+#idgebouw {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../Afbeeldingen/onderwerpen/gebouw-changbok-ko-F8t2VGnI47I-unsplash.jpg);
+}
+#idfitness {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../Afbeeldingen/onderwerpen/sport-boxed-water-is-better-y-TpYAlcBYM-unsplash.jpg);
+}
+#idgezondheid {
+    background-color: #ff961e;
+}
+#idcatering {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../Afbeeldingen/onderwerpen/catering-louis-hansel-WlMaIRoh7j8-unsplash.jpg);
+}
+#idroosters {
+    background-color: #ffcb1e;
+}
+#idactiviteiten {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../Afbeeldingen/onderwerpen/activiteit-ashim-d-silva-UjxL9x0nwQ8-unsplash.jpg);
+}
+#idstudentenraad {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../Afbeeldingen/onderwerpen/studentenraad-headway-5QgIuuBxKwM-unsplash.jpg);
+}
+#idafstandsleren {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../Afbeeldingen/onderwerpen/afstandsleren-j-kelly-brito-PeUJyoylfe4-unsplash.jpg);
+}
+#idmotivatie {
+    background-color: #ffd61e;
+}
+#iddocenten {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../Afbeeldingen/onderwerpen/docenten-thisisengineering-raeng-TXxiFuQLBKQ-unsplash.jpg);
+}
+#idlesinhoud {
+    background-color: #ff781e;
+}
+#postideeContainer {
+
+}
+#formPostIdee {
+    width: 100%;
+    padding: 2px 6px;
+}
+#recenteideeenContainer {
+
+}
+#besteideeenContainer {
+    
+}
+#profielIdeeenId {
+    font-weight: bold;
+    margin: 16px 10px;
+    font-size: 1em;
+}
+#zoekIdeeenId {
+    margin: 1em 10px;
+}
+#zoekGebruikersId {
+    
+}
+#titelPostIdeeId {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    margin: 10px 4px 0px 4px;
+}
+#labelPostIdee {
+    font-weight: bold;
+    font-size: .9em;
+    width: 100%;
+    display: block;
+    margin: 6px 0px;
+}
+#textareaPostIdeeId {
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+    font-size: .9em;
+    width: 100%;
+    padding: 4px;
+}
+#labelPostDomein {
+    font-weight: bold;
+    font-size: .9em;
+    width: 100%;
+    display: block;
+    margin: 6px 0px;
+}
+#selectPostIdeeId {
+    width: 70%;
+    margin: 6px 0px;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+}
+#submitPostIdeeId {
+    margin: 6px 0px;
+    
+}
+#profielNaamId {
+    font-weight: bold;
+    margin: 6px 0px;
+    font-size: 1em;
+}
+#profielEmailId {
+    font-size: .9em;
+    margin: 6px 0px;
+}
+#profielDatumId {
+    font-size: .9em;
+    margin: 6px 0px;
+}
+#profielType {
+    font-size: .9em;
+    margin: 6px 0px;
+}
+#profielBerichtenId {
+    font-weight: bold;
+    margin: 6px 0px;
+    font-size: 1em;
+}
+#wijzigenTitelId {
+    margin: 10px;
+    font-size: .9em;
+    font-weight: bold;
+}
+#formProfielWijzigenId {
+    padding: 10px;
+}
+#accWijzigenVoornaamId {
+    font-size: .9em;
+    margin: 4px 0px;
+}
+#accWijzigenAchternaamId {
+    font-size: .9em;
+    margin: 4px 0px;
+}
+#submitProfielWijzigenId {
+    font-size: .9em;
+    margin: 4px 0px;
+}
+#wijzigenwachtwoordTitelId {
+    margin: 10px;
+    font-size: .9em;
+    font-weight: bold;
+}
+#formWachtwoordWijzigenId {
+    padding: 10px;
+}
+#wachtwoordwijzigoud {
+    font-size: .9em;
+    margin: 4px 0px;
+}
+#wachtwoordwijzignieuw {
+    font-size: .9em;
+    margin: 4px 0px;
+}
+#wachtwoordwijzignieuwherhaald {
+    font-size: .9em;
+    margin: 4px 0px;
+}
+#submitWachtwoordWijzigenId {
+    font-size: .9em;
+    margin: 4px 0px;
+}
