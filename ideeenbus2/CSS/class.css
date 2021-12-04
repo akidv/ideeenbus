@@ -1,0 +1,449 @@
+.paginaFlexHeader {
+    flex-shrink: 0;
+    background-color: rgb(30, 30, 30);
+}
+.gridHeader {
+    min-height: 60px;
+    width: 100%;
+    border-bottom: 2px solid gray;
+}
+.gridFooter {
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+.gridFooter a {
+    color: white;
+    display: block;
+    margin: 0px auto;
+    width: fit-content;
+    padding: 4px;
+}
+.margin10px {
+    margin: 10px;
+}
+.margin4px {
+    margin: 4px;
+}
+.margin2px {
+    margin: 2px;
+}
+.marginTopBottom6px {
+    margin: 6px 0px;
+}
+.width100 {
+    width: 100%;
+}
+.width50 {
+    width: 50%;
+}
+.tekstCenter {
+    text-align: center;
+}
+.standaardInput {
+    margin: 2px;
+    padding: 4px 6px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+.standaardInput:focus {
+    border:1px solid lightgray;
+    background-color: white;
+    outline: none;
+}
+.hoverGroen:hover {
+    background-color: lightgreen;
+}
+.ideeenbusTitel {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-size: 1.6em;
+    color: white;
+}
+.displayInline {
+    display: inline;
+}
+.colorBlack {
+    color: black;
+}
+.colorGray {
+    color: gray;
+}
+.colorLightGray {
+    color: lightgrey;
+}
+.linkHeader {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    font-size: .9em;
+}
+.linkMobielHeader {
+    color: white;
+    text-decoration: none;
+    margin: 4px;
+    overflow: hidden;
+}
+.paginaFlexMain {
+    flex: 1;
+    background-color: white;
+}
+.paginaFlexMain::selection {
+    color: white;
+    background: rgb(30, 30, 30);
+}
+.margin0 {
+    margin: 0;
+}
+.paginaFlexFooter {
+    flex-shrink: 0;
+    position: relative;
+    bottom: 0px;
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    border-top: 2px solid gray;
+    min-height: 60px;
+    font-size: .9em;
+    padding: 2px;
+}
+.overflowHidden {
+    overflow: hidden;
+}
+.displayFlex {
+    display: flex;
+}
+.listStyleTypeNone {
+    list-style-type: none;
+}
+.paddingInlineStart0 {
+    padding-inline-start: 0px;
+}
+.carouselLinks li {
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-size: .9em;
+    margin: 2px 4px;
+    font-weight: bold;
+    flex: none;
+    transition: .2s ease;
+}
+.carouselLinks li a {
+    color: black;
+    font-size: .9em;
+    text-decoration: none;
+}
+.carouselLinks li:hover {
+    background-color: lightgreen;
+}
+.marginLeft0 {
+    margin-left: 0;
+}
+.linkStart {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+.linkStart a {
+    margin-top: 70px;
+}
+.fontSize9 {
+    font-size: .9em;
+}
+.fontWeightBold {
+    font-weight: bold;
+}
+.height100 {
+    height: 100%;
+}
+.navGridContainer {
+    border-bottom: 2px solid gray;
+}
+.vierkant {
+    min-width: 100px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 300px;
+    aspect-ratio: 1/1;
+    filter: brightness(102%);
+}
+.center {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+} 
+.overflowWrapBreakWord {
+    overflow-wrap: break-word;
+}
+.linkHomeOnderwerpenClass {
+    color: white;
+    font-size: .9em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.linkHomeOnderwerpenClass:hover {
+    background-color: rgba(255, 255, 255, .1);
+    z-index: 100;
+}
+.vierkant:hover a {
+    border-bottom: 4px solid white;
+    transition: border-bottom .2s;
+}
+.vierkant:hover {
+    filter: brightness(114%);
+}
+.linkOnderwerpenPage {
+    min-width: 100px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 300px;
+    aspect-ratio: 1/1;
+    filter: brightness(102%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    word-wrap: break-word;
+}
+.linkOnderwerpenPage:hover {
+    filter: brightness(114%);
+}
+.afbeeldingStart {
+    width: 100%;
+    max-width: 900px;
+    margin: 10px auto;
+}
+.post {
+    color: white;
+    padding: 6px 12px;
+    font-weight: bold;
+    overflow: auto;
+}
+.widthFitContent {
+    width: fit-content;
+}
+.tekstEnd {
+    text-align: end;
+}
+.floatLeft {
+    float: left;
+}
+.clearFloat {
+    clear: both;
+}
+.floatRight {
+    float: right;
+}
+.padding4px {
+    padding: 4px;
+}
+.padding6px {
+    padding: 6px;
+}
+.paddingLeftRight4px {
+    padding: 0px 4px;
+}
+.paddingLeftRight6px {
+    padding: 0px 6px;
+}
+.stemKnop {
+    width: 30px;
+}
+.stemKnop2 {
+    width: fit-content;
+    background-color: white;
+    height: 30px;
+    border: none;
+    padding: 0;
+}
+.stemAfbeelding {
+    width: 30px;
+    margin: auto;
+    transition: .3s ease;
+}
+.profielGebruiker {
+    border-bottom: 2px solid gray;
+    padding: 10px;
+    width: 100%;
+}
+.berichtenGebruiker {
+    border-bottom: 2px solid gray;
+    padding: 10px;
+    width: 100%;
+}
+.ideeenGebruiker {
+    width: 100%;
+}
+.zoekIdeeen {
+    width: 100%;
+}
+.zoekGebruikers {
+    border-bottom: 2px solid gray;
+    padding: 10px;
+    width: 100%;
+}
+.linkProfielAanpassen {
+    color: black;
+    font-size: .9em;
+}
+.padding10px {
+    padding: 10px;
+}
+.bericht {
+    font-size: .9em;
+    border: 1px solid gray;
+    margin: 4px;
+}
+.verwijderIdeeKnop {
+    background-color: unset;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: .9em;
+    transition: .15s ease;
+}
+.verwijderIdeeKnop:hover {
+    background-color: rgb(189, 0, 0);
+}
+.verwijderIdeeKnop:active {
+    background-color: rgb(99, 0, 0);
+}
+.lineheight30 {
+    line-height: 30px;
+}
+.submitZoek {
+    width: 25%;
+    background-color: rgb(130, 130, 130);
+    color: white;
+    padding: 4px 6px;
+    border: 1px solid rgb(130, 130, 130);
+    border-radius: 6px;
+    max-height: 30px;
+}
+.submitZoek:hover {
+    background-color: rgb(170, 170, 170);
+}
+.submitZoek:focus {
+    border: 1px solid rgb(210, 210, 210);
+    background-color: rgb(130, 130, 130);
+    outline: none;
+}
+.zoekbalk {
+    width: 60%;
+    background-color: rgb(130, 130, 130);
+    color: white;
+    padding: 4px 6px;
+    border: 1px solid rgb(130, 130, 130);
+    border-radius: 6px;
+}
+.zoekbalk:focus {
+    border: 1px solid rgb(210, 210, 210);
+    background-color: rgb(130, 130, 130);
+    outline: none;
+}
+.zoekbalk::placeholder {
+    color: white;
+    opacity: 1;
+}
+.zoekbalk:-ms-input-placeholder {
+    color: white;
+}
+.zoekbalk::-ms-input-placeholder {
+    color: white;
+}
+.profielLinkPost {
+    background-color: unset;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: .9em;
+    transition: .15s ease;
+}
+.profielLinkPost:hover {
+    background-color: rgb(189, 0, 0);
+}
+.verwijderProfielKnop {
+    background-color: unset;
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: .9em;
+    transition: .15s ease;
+}
+.verwijderProfielKnop:hover {
+    background-color: rgb(189, 0, 0, .5);
+}
+.verwijderProfielKnop:active {
+    background-color: rgb(99, 0, 0, .5);
+}
+.errorGeenProfiel {
+    width: 100%;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 2px solid red;
+    padding: 4px 16px;
+    color: red;
+}
+.indicatieInlogStatus {
+    color: white;
+    margin: 4px;
+}
+.errorpaginabericht {
+    width: 100%;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 2px solid red;
+    padding: 4px 16px;
+    color: red;
+}
+.contactpagina {
+    max-width: 300px;
+    margin: 2% auto;
+    padding: 4px;
+}
+.overonspagina {
+    max-width: 300px;
+    margin: 2% auto;
+    padding: 4px;
+}
+.gebruikersvoorwaardenpagina {
+    max-width: 500px;
+    margin: 2% auto;
+    padding: 4px;
+}
+.privacypagina {
+    max-width: 500px;
+    margin: 2% auto;
+    padding: 4px;
+}
+.contacttitel {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.overonstitel {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.gebruikersvoorwaardentitel {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.privacytitel {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.linkgebruikersvoorwaarden {
+    color: black;
+}
+.linkprivacy {
+    color: black;
+}

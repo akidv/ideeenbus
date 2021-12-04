@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+::selection {
+    color: black;
+    background: rgba(255, 255, 0, 0.8);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(30, 30, 30);
+    background-image: url(../Afbeeldingen/logo/LogoIdeeenbusWit.png);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position-y: center;
+}

@@ -1,0 +1,238 @@
+@media only screen and (max-width: 200px) {
+    #paginaFlexContainer {
+        display: none;
+    }
+}
+@media only screen and (min-width: 200px) {
+    #paginaFlexContainer {
+        display: flex;
+    }
+    .gridHeader {
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: [pagina-start linksHeader-start] 3fr [linksHeader-end centerHeader-start] 
+         6fr [centerHeader-end rechtsHeader-start] 3fr [rechtsHeader-end pagina-end];
+        grid-template-rows: repeat(auto);
+        grid-gap: 5px;
+        align-items: center;
+    }
+    .gridFooter {
+        display: grid;
+        grid-template-columns: [pagina-start linksFooter-start] 3fr [linksFooter-end centerFooter-start] 
+         3fr [centerFooter-end rechtsFooter-start] 3fr [rechtsFooter-end pagina-end];
+        grid-template-rows: auto;
+        grid-gap: 5px;
+    }
+    .linksGridHeader {
+        display: none;
+    }
+    .centerGridHeader {
+        grid-column: pagina;
+    }
+    .rechtsGridHeader {
+        display: none;
+    }
+    .mobielButtonsHeader {
+        grid-column: pagina;
+        grid-row: 2/2;
+        text-align: center;
+    }
+    .linksGridFooter {
+        grid-column: pagina;
+        grid-row: 1/1;
+    }
+    .centerGridFooter {
+        grid-column: pagina;
+        grid-row: 2/2;
+    }
+    .rechtsGridFooter {
+        grid-column: pagina;
+        grid-row: 3/3;
+    }
+    .navGridContainer {
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: [linksNav-start] 1fr [linksNav-end centerNav-start] 
+         10fr [centerNav-end rechtsNav-start] 1fr [rechtsNav-end];
+        grid-template-rows: auto;
+        grid-gap: 2px;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .linksGridNav {
+        grid-column: linksNav;  
+    }
+    .centerGridNav {
+        grid-column: centerNav;
+    }
+    .rechtsGridNav {
+        grid-column: rechtsNav;
+    }
+    .homeOnderwerpenGridContainer {
+        margin: 0px auto;
+        max-width: 900px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .homeOnderwerpenFlexContainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .linkOnderwerpenPage {
+        font-size: 1em;
+    }
+    .zoekbalk {
+        margin: 8px 0px 0px 10px;
+    }
+    .submitZoek {
+        margin: 8px 10px 0px 0px;
+    }
+    .logoIdeeenbus {
+        width: 50px;
+        margin: 4px;
+    }
+}
+@media only screen and (min-width: 400px) {
+    .linksGridHeader {
+        display: block;
+        grid-column: linksHeader;
+        text-align: center;
+    }
+    .centerGridHeader {
+        grid-column-start: centerHeader;
+        grid-column-end: rechtsHeader;
+    }
+    .zoekbalk {
+        margin: 8px 0px 10px 10px;
+    }
+    .submitZoek {
+        margin: 8px 10px 10px 0px;
+    }
+    .logoIdeeenbus {
+        width: 80%;
+        margin: 10px 4px;
+        max-width: 100px;
+    }
+    #formPostIdee {
+        max-width: 500px;
+        margin: 2% auto;
+    }
+    .profielwijzigen {
+        max-width: 500px;
+        margin: 2% auto;
+    }
+    .wachtwoordwijzigen {
+        max-width: 500px;
+        margin: 2% auto;
+    }
+    #inlogContainer {
+        max-width: 500px;
+        margin: 2% auto;
+    }
+    #accountAanmakenContainer {
+        max-width: 500px;
+        margin: 2% auto;
+    }
+    .linksGridFooter {
+        grid-column-start: linksFooter;
+        grid-column-end: centerFooter;
+        grid-row: 1/1;
+    }
+    .centerGridFooter {
+        grid-column: rechtsFooter;
+        grid-row: 1/1;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .homeOnderwerpenGridContainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .linksGridHeader {
+        display: block;
+        grid-column: linksHeader;
+        text-align: center;
+    }
+    .centerGridHeader {
+        grid-column: centerHeader;
+    }
+    .rechtsGridHeader {
+        display: block;
+        grid-column: rechtsHeader;
+    }
+    .zoekbalk {
+        margin: 8px 0px 10px 10px;
+    }
+    .submitZoek {
+        margin: 8px 10px 10px 0px;
+    }
+    .logoIdeeenbus {
+        width: 80%;
+        margin: 20px 4px;
+        max-width: 120px;
+    }
+    .mobielButtonsHeader {
+        display: none;
+    }
+    .post {
+        max-width: 700px;
+        margin: auto;
+    }
+    .profielGebruiker {
+        max-width: 700px;
+        margin: auto;
+    }
+    .berichtenGebruiker {
+        max-width: 700px;
+        margin: auto;
+    }
+    .ideeenGebruiker {
+        max-width: 700px;
+        margin: auto;
+    }
+    .zoekGebruikers {
+        max-width: 700px;
+        margin: auto;
+    }
+    .zoekIdeeen {
+        max-width: 700px;
+        margin: auto;
+    }
+    #startLogInOfRegristreer {
+        float: left;
+        padding: 10% 6%;
+        margin: 0;
+        width: 50%;
+    }
+    #afbeeldingStartId {
+        float: left;
+        width: 40%;
+        margin: 0;
+    }
+    .linksGridFooter {
+        grid-column: linksFooter;
+        grid-row: 1/1;
+    }
+    .centerGridFooter {
+        grid-column: centerFooter;
+        grid-row: 1/1;
+    }
+    .rechtsGridFooter {
+        grid-column: rechtsFooter;
+        grid-row: 1/1;
+    }
+    
+}
+@media only screen and (min-width: 610px) {
+    #rechtsNavButtonId {
+        display: none;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .linkOnderwerpenPage {
+        font-size: 1.3em;
+    }
+}
